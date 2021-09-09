@@ -1,0 +1,54 @@
+---
+# Cheatsheet Basic algorithms using javascript
+---
+# This is a cheat sheet  of some Basic Javascript algorithms 
+### _1) Multiplication, division, and comparison operators_
+> Of Course there are other solutions to the problems below 
+
+      Steps : 
+        1)Write a function that takes two numbers, say a and b, as arguments
+        2)If a is smaller than b, divide a by b
+        3)Otherwise, multiply both numbers
+        4)Return the resulting value
+```
+ function myFunction(a,b){
+     return a < b ? a / B : a * b ; 
+ }
+```
+### _2) Check if a number is even_
+
+
+      Steps : 
+        1) Write a function that takes a number as argument
+        2) If the number is even, return true
+        3) Otherwise, return false  
+```
+ function myFunction(a){
+     return a % 2 == 0 ? true : false ; 
+ }
+```
+### _3) Check if a number is a whole number_
+
+
+      Steps : 
+        1) Write a function that takes a number as argument
+        2) If the number is a whole number (has no decimal place), return true
+        3) Otherwise, return false
+```
+ function myFunction(a){
+     return a % 1 == 0 ? true : false ; 
+ }
+```
+### _4) Check whether a string contains another string and concatenate_
+
+
+      Steps : 
+        1) Write a function that takes two strings, say a and b, as arguments
+        2) If a contains b, append b to the beginning of a
+        3) If not, append it to the end
+        4) Return the concatenation
+```
+ function myFunction(a,b){
+     return a.indexOf(b) === -1 ? a + b : b + a ; 
+ }
+```
