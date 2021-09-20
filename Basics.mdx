@@ -71,3 +71,22 @@
      );
  }
 ```
+
+### _6) Exes and Ohs
+
+      Steps : 
+        1) Check to see if a string has the same amount of 'x's and 'o's
+        2) The method must return a boolean and be case insensitive
+        3) The string can contain any char. 
+Examples: input/output
+* XO("ooxx") => true
+* XO("xooxx") => false
+* XO("ooxXm") => true
+* XO("zpzpzpz") => true          // when no "x" and "o" is present return true
+* XO("zzoo") => false
+```
+ function XO(str){
+    let test = Array.from(str.toLowerCase());
+    return test.filter(x=> x ==="x").lenght == test.filter(x=> x ==="o").length;
+ }
+```
